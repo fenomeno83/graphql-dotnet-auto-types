@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>2.3.0</VersionPrefix>
+    <VersionPrefix>2.4.0</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GraphQL" Version="2.3.0" />
+    <PackageReference Include="GraphQL" Version="2.4.0" />
   </ItemGroup>
 
 </Project>
