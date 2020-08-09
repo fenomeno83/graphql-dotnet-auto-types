@@ -4,6 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <VersionPrefix>2.0.0</VersionPrefix>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="GraphQL" Version="2.0.0" />
   </ItemGroup>

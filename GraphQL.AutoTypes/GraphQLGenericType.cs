@@ -39,7 +39,6 @@ namespace GraphQL.AutoTypes
         }
     }
 
-
     public class GraphQLGenericType<TModel> : ObjectGraphType<TModel> where TModel : class, new()
     {
         GraphQLGenericTypeMapper _typeMapper = new GraphQLGenericTypeMapper();
