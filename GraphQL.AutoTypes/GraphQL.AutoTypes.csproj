@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>3.0.0-preview-1211</VersionPrefix>
+    <VersionPrefix>3.0.0-preview-1264</VersionPrefix>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GraphQL" Version="3.0.0-preview-1211" />
+    <PackageReference Include="GraphQL" Version="3.0.0-preview-1264" />
   </ItemGroup>
 
 </Project>
