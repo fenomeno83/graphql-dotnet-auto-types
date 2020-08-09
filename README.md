@@ -4,7 +4,7 @@ An extension of graphql-dotnet ( https://github.com/graphql-dotnet/graphql-dotne
 Nuget package is here:
 https://www.nuget.org/packages/GraphQL.AutoTypes/
 
-Use your specific version related to graphql-dotnet version. So, if you have GraphQL 3.0.0-preview-1648 installed, you need to install GraphQL.AutoTypes 3.0.0.1648 version.
+Use your specific version related to graphql-dotnet version. So, if you have GraphQL 3.0.0-preview-1648 installed, you need to install GraphQL.AutoTypes 3.0.0-preview-1648 version.
 
 
 Example:
@@ -63,7 +63,7 @@ Here ad example mutation, but you can use in queries too:
 
                         //use Netwonsoft deserializer, because default fails if there are other properties outside original type schema; you can create a context extension method to do this
                         TestRequest request = JsonConvert.DeserializeObject(JsonConvert.SerializeObject(context.GetArgument<dynamic>("input")));
-			//TestRequest request = context.GetArgument<TestRequest>("input"); //sometimes fails
+			    //TestRequest request = context.GetArgument<TestRequest>("input"); //sometimes fails
 
                         TestResponse response = await _testService.DemoMutation(request);
 
