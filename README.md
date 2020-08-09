@@ -1,5 +1,5 @@
 # graphql-dotnet-auto-types
-An extension of graphql-dotnet ( https://github.com/graphql-dotnet/graphql-dotnet ) that generates InputObjectGraphType and ObjectGraphType starting from Dto classes
+An extension of graphql-dotnet ( https://github.com/graphql-dotnet/graphql-dotnet ) that automatically generates InputObjectGraphType and ObjectGraphType starting from Dto classes
 
 Nuget package is here:
 https://www.nuget.org/packages/GraphQL.AutoTypes/
