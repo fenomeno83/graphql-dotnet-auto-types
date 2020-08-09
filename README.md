@@ -63,7 +63,7 @@ Here ad example mutation, but you can use in queries too:
 
                         //use Netwonsoft deserializer, because default fails if there are other properties outside original type schema; you can create a context extension method to do this
                         TestRequest request = JsonConvert.DeserializeObject(JsonConvert.SerializeObject(context.GetArgument<dynamic>("input")));
-			//TestRequest request = context.GetArgument<TestRequest>("input"); //sometimes fails
+			    //TestRequest request = context.GetArgument<TestRequest>("input"); //sometimes fails
 
                         TestResponse response = await _testService.DemoMutation(request);
 
