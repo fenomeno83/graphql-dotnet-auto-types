@@ -106,3 +106,6 @@ You can automatically register all schema types, in startup.cs/ConfigureServices
             .ToList()
             .ForEach(t => services.AddSingleton(t));
             
+	    
+You can find here an example of implementation:
+https://github.com/fenomeno83/graphql-dotnet-globalization-demo
