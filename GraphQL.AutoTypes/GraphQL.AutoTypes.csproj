@@ -5,11 +5,22 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>3.0.0-preview-1648</VersionPrefix>
+    <VersionPrefix>3.0.0-preview-1719</VersionPrefix>
+    <Authors>fenomeno83</Authors>
+    <Description>An extension of graphql-dotnet ( https://github.com/graphql-dotnet/graphql-dotnet ) that automatically generates InputObjectGraphType and ObjectGraphType starting from Dto classes.
+
+Use your specific version related to graphql-dotnet version. So, if you have GraphQL 3.0.0-preview-1648 installed, you need to install GraphQL.AutoTypes 3.0.0-preview-1648 version.
+
+See source code and guide here:
+https://github.com/fenomeno83/graphql-dotnet-auto-types
+</Description>
+    <PackageProjectUrl>https://github.com/fenomeno83/graphql-dotnet-auto-types</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fenomeno83/graphql-dotnet-auto-types</RepositoryUrl>
+    <PackageTags>graphql .net core autotypes auto types</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GraphQL" Version="3.0.0-preview-1648" />
+    <PackageReference Include="GraphQL" Version="3.0.0-preview-1719" />
   </ItemGroup>
 
 </Project>
