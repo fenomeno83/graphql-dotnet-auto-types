@@ -23,4 +23,5 @@ https://github.com/fenomeno83/graphql-dotnet-auto-types
     <PackageReference Include="GraphQL" Version="3.0.0" />
   </ItemGroup>
 
+  
 </Project>
