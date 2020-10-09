@@ -4,7 +4,7 @@ An extension of graphql-dotnet ( https://github.com/graphql-dotnet/graphql-dotne
 Nuget package is here:
 https://www.nuget.org/packages/GraphQL.AutoTypes/
 
-Use your specific version related to graphql-dotnet version. So, if you have GraphQL 3.0.0-preview-1648 installed, you need to install GraphQL.AutoTypes 3.0.0-preview-1648 version.
+Use your specific version related to graphql-dotnet version. So, if you have GraphQL 3.0.0 installed, you need to install GraphQL.AutoTypes 3.0.0 version.
 
 
 Example:
