@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <VersionPrefix>4.3.0</VersionPrefix>
+    <VersionPrefix>4.4.0</VersionPrefix>
     <Authors>fenomeno83</Authors>
     <Description>An extension of graphql-dotnet ( https://github.com/graphql-dotnet/graphql-dotnet ) that automatically generates InputObjectGraphType and ObjectGraphType starting from Dto classes.
 
@@ -20,7 +20,7 @@ https://github.com/fenomeno83/graphql-dotnet-auto-types
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GraphQL" Version="4.3.0" />
+    <PackageReference Include="GraphQL" Version="4.4.0" />
   </ItemGroup>
 
   
